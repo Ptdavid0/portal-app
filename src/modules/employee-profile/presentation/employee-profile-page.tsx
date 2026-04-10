@@ -27,6 +27,7 @@ export function EmployeeProfilePage() {
         <PrivateHeader
           title="Dados Profissionais"
           subtitle="Gerencie suas informações profissionais e fiscais"
+          identityLoading
         />
         <div className="p-8">
           <div className="rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)] p-6 text-sm text-[var(--aubay-grey)]">
@@ -42,6 +43,7 @@ export function EmployeeProfilePage() {
       <PrivateHeader
         title="Dados Profissionais"
         subtitle="Gerencie suas informações profissionais e fiscais"
+        identity={{ fullName: data.fullName, id: data.id }}
       />
 
       <div className="p-8">

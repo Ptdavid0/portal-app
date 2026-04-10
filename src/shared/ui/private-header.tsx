@@ -1,4 +1,26 @@
-export function PrivateHeader({ title, subtitle }: { title: string; subtitle?: string }) {
+function initialsFromFullName(fullName: string) {
+  const parts = fullName.trim().split(/\s+/).filter(Boolean);
+  if (parts.length === 0) return "—";
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
+  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+}
+
+export function PrivateHeader({
+  title,
+  subtitle,
+  identity,
+  identityLoading,
+}: {
+  title: string;
+  subtitle?: string;
+  identity?: { fullName: string; id: string };
+  identityLoading?: boolean;
+}) {
+  const showLoading = Boolean(identityLoading);
+  const displayName = showLoading ? "A carregar…" : (identity?.fullName ?? "João Silva");
+  const displayId = showLoading ? "—" : (identity?.id ?? "12345");
+  const displayInitials = showLoading ? "…" : identity ? initialsFromFullName(identity.fullName) : "JS";
+
   return (
     <header className="border-b border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)] px-8 py-4">
       <div className="flex items-center justify-between">
@@ -9,21 +31,14 @@ export function PrivateHeader({ title, subtitle }: { title: string; subtitle?: s
           {subtitle ? <p className="mt-1 text-sm text-[var(--aubay-grey)]">{subtitle}</p> : null}
         </div>
         <div className="flex items-center space-x-4">
-          <button
-            type="button"
-            className="relative rounded-[var(--radius)] p-2 text-[var(--aubay-grey)] hover:bg-gray-100 hover:text-[var(--aubay-black)]"
-          >
-            <i className="fa-solid fa-bell text-xl" aria-hidden />
-            <span className="absolute right-1 top-1 h-2 w-2 rounded-full bg-red-500" />
-          </button>
           <div className="flex items-center space-x-3 border-l border-[var(--aubay-warmgrey)] pl-4">
             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[var(--aubay-orange)] text-sm font-bold text-white">
-              JS
+              {displayInitials}
             </div>
             <div>
-              <p className="text-sm font-bold text-[var(--aubay-black)]">João Silva</p>
+              <p className="text-sm font-bold text-[var(--aubay-black)]">{displayName}</p>
               <p className="text-xs font-bold tracking-[.14em] uppercase text-[var(--aubay-grey)]">
-                ID: 12345
+                ID: {displayId}
               </p>
             </div>
           </div>
