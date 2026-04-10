@@ -64,7 +64,7 @@ export function EmployeeProfilePage() {
                 <i className="fa-solid fa-briefcase text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
-                <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
+                <h3 className="text-lg font-semibold tracking-[-0.01em] text-[var(--aubay-black)]">
                   Dados Profissionais
                 </h3>
                 <p className="text-xs text-[var(--aubay-grey)]">Informações principais do colaborador</p>
@@ -186,7 +186,7 @@ export function EmployeeProfilePage() {
                   {data.preferredTechnologies.map((tech) => (
                     <span
                       key={tech}
-                      className="rounded-full bg-[#FEF0EB] px-3 py-1.5 text-sm font-bold text-[var(--aubay-orange)]"
+                      className="rounded-full bg-[#FEF0EB] px-3 py-1.5 text-sm font-semibold text-[var(--aubay-orange)]"
                     >
                       {tech}
                     </span>
@@ -204,7 +204,7 @@ export function EmployeeProfilePage() {
                 <i className="fa-solid fa-building text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
-                <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
+                <h3 className="text-lg font-semibold tracking-[-0.01em] text-[var(--aubay-black)]">
                   Dados Aubay
                 </h3>
                 <p className="text-xs text-[var(--aubay-grey)]">Informações organizacionais</p>
@@ -238,7 +238,7 @@ export function EmployeeProfilePage() {
                 <i className="fa-solid fa-address-book text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
-                <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
+                <h3 className="text-lg font-semibold tracking-[-0.01em] text-[var(--aubay-black)]">
                   Contactos
                 </h3>
                 <p className="text-xs text-[var(--aubay-grey)]">Meios de comunicação</p>
@@ -310,7 +310,7 @@ export function EmployeeProfilePage() {
                 <i className="fa-solid fa-phone-volume text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
-                <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
+                <h3 className="text-lg font-semibold tracking-[-0.01em] text-[var(--aubay-black)]">
                   Contactos de Emergência
                 </h3>
                 <p className="text-xs text-[var(--aubay-grey)]">
@@ -397,7 +397,7 @@ export function EmployeeProfilePage() {
                 <i className="fa-solid fa-file-invoice text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
-                <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
+                <h3 className="text-lg font-semibold tracking-[-0.01em] text-[var(--aubay-black)]">
                   Dados Fiscais
                 </h3>
                 <p className="text-xs text-[var(--aubay-grey)]">Informações tributárias e bancárias</p>
@@ -493,7 +493,7 @@ export function EmployeeProfilePage() {
                 <i className="fa-solid fa-id-card text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
-                <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
+                <h3 className="text-lg font-semibold tracking-[-0.01em] text-[var(--aubay-black)]">
                   Documento de Identificação
                 </h3>
                 <p className="text-xs text-[var(--aubay-grey)]">Informações do documento oficial</p>
@@ -559,7 +559,7 @@ export function EmployeeProfilePage() {
                 <i className="fa-solid fa-users text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
-                <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
+                <h3 className="text-lg font-semibold tracking-[-0.01em] text-[var(--aubay-black)]">
                   Condição Fiscal
                 </h3>
                 <p className="text-xs text-[var(--aubay-grey)]">Estado civil e dependentes</p>
@@ -625,7 +625,7 @@ export function EmployeeProfilePage() {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 rounded-lg border border-gray-200 bg-gray-50 p-3">
                   <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
-                    <span className="text-sm font-black text-[var(--profile-section-icon-fg)]">1</span>
+                    <span className="text-sm font-semibold text-[var(--profile-section-icon-fg)]">1</span>
                   </div>
                   <input
                     type="date"
@@ -638,7 +638,7 @@ export function EmployeeProfilePage() {
                 </div>
                 <div className="flex items-center space-x-3 rounded-lg border border-gray-200 bg-gray-50 p-3">
                   <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
-                    <span className="text-sm font-black text-[var(--profile-section-icon-fg)]">2</span>
+                    <span className="text-sm font-semibold text-[var(--profile-section-icon-fg)]">2</span>
                   </div>
                   <input
                     type="date"
@@ -669,7 +669,7 @@ export function EmployeeProfilePage() {
                 <i className="fa-solid fa-building-columns text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
-                <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
+                <h3 className="text-lg font-semibold tracking-[-0.01em] text-[var(--aubay-black)]">
                   Dados Fiscais da Empresa
                 </h3>
                 <p className="text-xs text-[var(--aubay-grey)]">Informações da entidade empregadora</p>

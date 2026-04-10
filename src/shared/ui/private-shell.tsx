@@ -104,7 +104,7 @@ export function PrivateShell({
               <i className="fa-solid fa-building text-lg text-white" aria-hidden />
             </div>
             <div>
-              <h1 className="text-lg font-bold text-(--aubay-black)">Portal</h1>
+              <h1 className="text-lg font-semibold text-(--aubay-black)">Portal</h1>
               <p className="text-xs text-(--aubay-grey)">Colaborador</p>
             </div>
           </div>

@@ -25,19 +25,19 @@ export function PrivateHeader({
     <header className="border-b border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)] px-8 py-4">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-2xl font-black tracking-[-0.02em] text-[var(--aubay-black)]">
+          <h2 className="text-2xl font-semibold tracking-[-0.02em] text-[var(--aubay-black)]">
             {title}
           </h2>
           {subtitle ? <p className="mt-1 text-sm text-[var(--aubay-grey)]">{subtitle}</p> : null}
         </div>
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-3 border-l border-[var(--aubay-warmgrey)] pl-4">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[var(--aubay-orange)] text-sm font-bold text-white">
+            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[var(--aubay-orange)] text-sm font-semibold text-white">
               {displayInitials}
             </div>
             <div>
-              <p className="text-sm font-bold text-[var(--aubay-black)]">{displayName}</p>
-              <p className="text-xs font-bold tracking-[.14em] uppercase text-[var(--aubay-grey)]">
+              <p className="text-sm font-semibold text-[var(--aubay-black)]">{displayName}</p>
+              <p className="text-xs font-semibold tracking-[.14em] uppercase text-[var(--aubay-grey)]">
                 ID: {displayId}
               </p>
             </div>

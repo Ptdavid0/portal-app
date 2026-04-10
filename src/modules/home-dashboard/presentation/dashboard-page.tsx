@@ -101,11 +101,11 @@ function QuickAccessCard({
           />
         )}
       </div>
-      <h3 className="mt-4 text-base font-black tracking-[-0.01em] text-[var(--aubay-black)]">
+      <h3 className="mt-4 text-base font-semibold tracking-[-0.01em] text-[var(--aubay-black)]">
         {title}
       </h3>
       <p className="mt-2 flex-1 text-sm text-[var(--aubay-grey)]">{description}</p>
-      {!href && <p className="mt-3 text-xs font-bold text-[var(--aubay-grey)]">URL por configurar</p>}
+      {!href && <p className="mt-3 text-xs font-semibold text-[var(--aubay-grey)]">URL por configurar</p>}
     </>
   );
 
@@ -192,7 +192,7 @@ export function DashboardPage() {
               className="fa-solid fa-clock mt-0.5 text-amber-700"
               aria-hidden
             />
-            <p className="text-sm font-bold text-amber-950">
+            <p className="text-sm font-semibold text-amber-950">
               Você ainda não preencheu as horas deste mês. Use a folha de horas para registar o tempo e
               manter o acompanhamento em dia.
             </p>
@@ -201,20 +201,20 @@ export function DashboardPage() {
         </div>
 
         <div className="mt-6 w-full rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)] p-6">
-          <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">Saldo de férias</h3>
+          <h3 className="text-lg font-semibold tracking-[-0.01em] text-[var(--aubay-black)]">Saldo de férias</h3>
           <div className="mt-6 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div className="flex flex-wrap gap-10">
               <div>
-                <p className="text-xs font-bold tracking-[.14em] uppercase text-[var(--aubay-grey)]">
+                <p className="text-xs font-semibold tracking-[.14em] uppercase text-[var(--aubay-grey)]">
                   Dias disponíveis
                 </p>
-                <p className="mt-2 text-3xl font-black tabular-nums tracking-[-0.02em] text-[var(--aubay-black)]">
+                <p className="mt-2 text-3xl font-bold tabular-nums tracking-[-0.02em] text-[var(--aubay-black)]">
                   —
                 </p>
               </div>
               <div>
-                <p className="text-xs font-bold tracking-[.14em] uppercase text-[var(--aubay-grey)]">Dias usados</p>
-                <p className="mt-2 text-3xl font-black tabular-nums tracking-[-0.02em] text-[var(--aubay-black)]">
+                <p className="text-xs font-semibold tracking-[.14em] uppercase text-[var(--aubay-grey)]">Dias usados</p>
+                <p className="mt-2 text-3xl font-bold tabular-nums tracking-[-0.02em] text-[var(--aubay-black)]">
                   —
                 </p>
               </div>
@@ -224,7 +224,7 @@ export function DashboardPage() {
         </div>
 
         <div className="mt-6">
-          <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">Acesso rápido</h3>
+          <h3 className="text-lg font-semibold tracking-[-0.01em] text-[var(--aubay-black)]">Acesso rápido</h3>
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
             <QuickAccessCard
               title="Clube Aubilous"
