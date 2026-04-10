@@ -31,7 +31,7 @@ export function PrivateShell({
         label: "Timesheet",
         iconClass: "fa-solid fa-clock",
         defaultOpen: false,
-        items: [{ label: "Registo de horas" }, { label: "Módulo de férias" }],
+        items: [{ label: "Registo de horas" }, { label: "Consulta de férias" }],
       },
       // {
       //   kind: "group",

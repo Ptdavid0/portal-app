@@ -10,6 +10,10 @@
   --aubay-grey: #8a8a8a;
   --aubay-white: #ffffff;
 
+  /* Section category icons (employee profile): soft disk + terracotta glyph, no ring */
+  --profile-section-icon-bg: #fdf2ee;
+  --profile-section-icon-fg: #d3542d;
+
   --radius: 20px;
 
   --background: var(--aubay-offwhite);

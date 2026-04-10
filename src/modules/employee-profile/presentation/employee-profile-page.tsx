@@ -60,8 +60,8 @@ export function EmployeeProfilePage() {
         <section className="mb-6 rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)]">
           <div className="flex items-center justify-between border-b border-[var(--aubay-warmgrey)] px-6 py-4">
             <div className="flex items-center space-x-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-[var(--radius)] bg-[#FEF0EB]">
-                <i className="fa-solid fa-briefcase text-[var(--aubay-orange)]" aria-hidden />
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
+                <i className="fa-solid fa-briefcase text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
                 <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
@@ -200,8 +200,8 @@ export function EmployeeProfilePage() {
         <section className="mb-6 rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)]">
           <div className="flex items-center justify-between border-b border-[var(--aubay-warmgrey)] px-6 py-4">
             <div className="flex items-center space-x-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-[var(--radius)] bg-[#FEF0EB]">
-                <i className="fa-solid fa-building text-[var(--aubay-orange)]" aria-hidden />
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
+                <i className="fa-solid fa-building text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
                 <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
@@ -234,8 +234,8 @@ export function EmployeeProfilePage() {
         <section className="mb-6 rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)]">
           <div className="flex items-center justify-between border-b border-[var(--aubay-warmgrey)] px-6 py-4">
             <div className="flex items-center space-x-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-[var(--radius)] bg-[#FEF0EB]">
-                <i className="fa-solid fa-address-book text-green-600" aria-hidden />
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
+                <i className="fa-solid fa-address-book text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
                 <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
@@ -265,8 +265,8 @@ export function EmployeeProfilePage() {
           <div className="p-6">
             <div className="space-y-4">
               <div className="flex items-center space-x-4 rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-gray-50 p-4">
-                <div className="flex h-10 w-10 items-center justify-center rounded-[var(--radius)] bg-[#FEF0EB]">
-                  <i className="fa-solid fa-phone text-[var(--aubay-orange)]" aria-hidden />
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
+                  <i className="fa-solid fa-phone text-[var(--profile-section-icon-fg)]" aria-hidden />
                 </div>
                 <div className="grid flex-1 grid-cols-1 gap-4 md:grid-cols-3">
                   <div>
@@ -306,8 +306,8 @@ export function EmployeeProfilePage() {
         <section className="mb-6 rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)]">
           <div className="flex items-center justify-between border-b border-[var(--aubay-warmgrey)] px-6 py-4">
             <div className="flex items-center space-x-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-red-100">
-                <i className="fa-solid fa-phone-volume text-red-600" aria-hidden />
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
+                <i className="fa-solid fa-phone-volume text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
                 <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
@@ -393,8 +393,8 @@ export function EmployeeProfilePage() {
         <section className="mb-6 rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)]">
           <div className="flex items-center justify-between border-b border-[var(--aubay-warmgrey)] px-6 py-4">
             <div className="flex items-center space-x-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-orange-100">
-                <i className="fa-solid fa-file-invoice text-orange-600" aria-hidden />
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
+                <i className="fa-solid fa-file-invoice text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
                 <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
@@ -489,8 +489,8 @@ export function EmployeeProfilePage() {
         <section className="mb-6 rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)]">
           <div className="flex items-center justify-between border-b border-[var(--aubay-warmgrey)] px-6 py-4">
             <div className="flex items-center space-x-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-100">
-                <i className="fa-solid fa-id-card text-indigo-600" aria-hidden />
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
+                <i className="fa-solid fa-id-card text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
                 <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
@@ -555,8 +555,8 @@ export function EmployeeProfilePage() {
         <section className="mb-6 rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)]">
           <div className="flex items-center justify-between border-b border-[var(--aubay-warmgrey)] px-6 py-4">
             <div className="flex items-center space-x-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-teal-100">
-                <i className="fa-solid fa-users text-teal-600" aria-hidden />
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
+                <i className="fa-solid fa-users text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
                 <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
@@ -624,8 +624,8 @@ export function EmployeeProfilePage() {
               </label>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3 rounded-lg border border-gray-200 bg-gray-50 p-3">
-                  <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#FEF0EB]">
-                    <span className="text-sm font-black text-[var(--aubay-orange)]">1</span>
+                  <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
+                    <span className="text-sm font-black text-[var(--profile-section-icon-fg)]">1</span>
                   </div>
                   <input
                     type="date"
@@ -637,8 +637,8 @@ export function EmployeeProfilePage() {
                   </button>
                 </div>
                 <div className="flex items-center space-x-3 rounded-lg border border-gray-200 bg-gray-50 p-3">
-                  <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#FEF0EB]">
-                    <span className="text-sm font-black text-[var(--aubay-orange)]">2</span>
+                  <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
+                    <span className="text-sm font-black text-[var(--profile-section-icon-fg)]">2</span>
                   </div>
                   <input
                     type="date"
@@ -665,8 +665,8 @@ export function EmployeeProfilePage() {
         <section className="mb-6 rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)]">
           <div className="flex items-center justify-between border-b border-[var(--aubay-warmgrey)] px-6 py-4">
             <div className="flex items-center space-x-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-red-100">
-                <i className="fa-solid fa-building-columns text-red-600" aria-hidden />
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[var(--profile-section-icon-bg)]">
+                <i className="fa-solid fa-building-columns text-[var(--profile-section-icon-fg)]" aria-hidden />
               </div>
               <div>
                 <h3 className="text-lg font-black tracking-[-0.01em] text-[var(--aubay-black)]">
