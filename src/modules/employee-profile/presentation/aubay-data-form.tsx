@@ -32,7 +32,7 @@ export function AubayDataForm({
           <label className="mb-2 block text-xs font-semibold text-gray-700">Categoria</label>
           <select
             {...register("category")}
-            className="w-full rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-gray-50 px-4 py-2.5 text-sm text-[var(--aubay-black)] focus:border-transparent focus:ring-2 focus:ring-[var(--aubay-orange)]"
+            className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
           >
             <option>Colaborador Permanente</option>
             <option>Consultor</option>
@@ -47,7 +47,7 @@ export function AubayDataForm({
           <label className="mb-2 block text-xs font-semibold text-gray-700">Área Funcional</label>
           <select
             {...register("functionalArea")}
-            className="w-full rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-gray-50 px-4 py-2.5 text-sm text-[var(--aubay-black)] focus:border-transparent focus:ring-2 focus:ring-[var(--aubay-orange)]"
+            className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
           >
             <option>Desenvolvimento de Software</option>
             <option>Infraestrutura</option>
@@ -63,7 +63,7 @@ export function AubayDataForm({
           <label className="mb-2 block text-xs font-semibold text-gray-700">Nível de Experiência</label>
           <select
             {...register("experienceLevel")}
-            className="w-full rounded-[var(--radius)] border border-[var(--aubay-warmgrey)] bg-gray-50 px-4 py-2.5 text-sm text-[var(--aubay-black)] focus:border-transparent focus:ring-2 focus:ring-[var(--aubay-orange)]"
+            className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
           >
             <option>Júnior</option>
             <option>Pleno</option>
@@ -80,7 +80,7 @@ export function AubayDataForm({
         <button
           type="submit"
           disabled={isSubmitting || !isDirty}
-          className="inline-flex items-center rounded-[var(--radius)] bg-[var(--aubay-orange)] px-6 py-3 font-semibold text-white hover:opacity-95 disabled:cursor-not-allowed disabled:opacity-50"
+          className="inline-flex items-center rounded-(--radius) bg-(--aubay-orange) px-6 py-3 font-semibold text-white hover:opacity-95 disabled:cursor-not-allowed disabled:opacity-50"
         >
           <i className="fa-solid fa-save mr-2" aria-hidden />
           Guardar Alterações

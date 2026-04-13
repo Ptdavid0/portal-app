@@ -96,10 +96,10 @@ export function PrivateShell({
 
   return (
     <div className="flex min-h-dvh bg-(--aubay-offwhite)">
-      <aside className="sticky top-0 flex h-dvh w-72 flex-col overflow-hidden border-r border-[var(--aubay-warmgrey)] bg-[var(--aubay-white)]">
+      <aside className="sticky top-0 flex h-dvh w-72 flex-col overflow-hidden border-r border-(--aubay-warmgrey) bg-(--aubay-white)">
         <div className="border-b border-(--aubay-warmgrey) px-6 py-5">
           <div className="flex items-center space-x-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-[var(--radius)] bg-[var(--aubay-orange)]">
+            <div className="flex h-10 w-10 items-center justify-center rounded-(--radius) bg-(--aubay-orange)">
               <i className="fa-solid fa-building text-lg text-white" aria-hidden />
             </div>
             <div>
@@ -118,8 +118,8 @@ export function PrivateShell({
                   key={item.href}
                   href={item.href}
                   className={cn(
-                    "mb-1 flex items-center space-x-3 rounded-[var(--radius)] px-3 py-2.5 text-[var(--aubay-black)] hover:bg-gray-100",
-                    active && "bg-[#FEF0EB] text-[var(--aubay-orange)]",
+                    "mb-1 flex items-center space-x-3 rounded-(--radius) px-3 py-2.5 text-(--aubay-black) hover:bg-gray-100",
+                    active && "bg-[#FEF0EB] text-(--aubay-orange)",
                   )}
                 >
                   <i className={cn(item.iconClass, "w-5")} aria-hidden />
@@ -136,8 +136,8 @@ export function PrivateShell({
                   type="button"
                   onClick={() => setOpenGroups((s) => ({ ...s, [item.label]: !open }))}
                   className={cn(
-                    "mb-1 flex w-full items-center justify-between rounded-[var(--radius)] px-3 py-2.5 text-[var(--aubay-black)] hover:bg-gray-100",
-                    anyChildActive && "bg-[#FEF0EB] text-[var(--aubay-orange)]",
+                    "mb-1 flex w-full items-center justify-between rounded-(--radius) px-3 py-2.5 text-(--aubay-black) hover:bg-gray-100",
+                    anyChildActive && "bg-[#FEF0EB] text-(--aubay-orange)",
                   )}
                 >
                   <div className="flex items-center space-x-3">
@@ -169,8 +169,8 @@ export function PrivateShell({
                           key={child.href}
                           href={child.href}
                           className={cn(
-                            "block rounded-[var(--radius)] px-3 py-2 text-sm text-[var(--aubay-grey)] hover:bg-gray-50 hover:text-[var(--aubay-black)]",
-                            childActive && "bg-[#FEF0EB] font-medium text-[var(--aubay-orange)]",
+                            "block rounded-(--radius) px-3 py-2 text-sm text-(--aubay-grey) hover:bg-gray-50 hover:text-(--aubay-black)",
+                            childActive && "bg-[#FEF0EB] font-medium text-(--aubay-orange)",
                           )}
                         >
                           {child.label}
@@ -184,10 +184,10 @@ export function PrivateShell({
           })}
         </nav>
 
-        <div className="border-t border-[var(--aubay-warmgrey)] px-3 py-4">
+        <div className="border-t border-(--aubay-warmgrey) px-3 py-4">
           <button
             type="button"
-            className="flex w-full items-center space-x-3 rounded-[var(--radius)] px-3 py-2.5 text-red-600 hover:bg-red-50"
+            className="flex w-full items-center space-x-3 rounded-(--radius) px-3 py-2.5 text-red-600 hover:bg-red-50"
           >
             <i className="fa-solid fa-right-from-bracket w-5" aria-hidden />
             <span className="text-sm font-medium">Terminar sessão</span>
