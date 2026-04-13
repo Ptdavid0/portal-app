@@ -36,7 +36,7 @@ const employeeProfile: EmployeeProfile = {
   methodology: "Agile - Scrum",
   preferredTechnologies: ["React", "TypeScript", "Node.js", "AWS", "Docker"],
   aubay: {
-    category: "Colaborador Permanente",
+    category: "Gestor",
     functionalArea: "Desenvolvimento de Software",
     experienceLevel: "Sênior",
   },
