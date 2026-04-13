@@ -193,8 +193,7 @@ export function DashboardPage() {
               aria-hidden
             />
             <p className="text-sm font-semibold text-amber-950">
-              Você ainda não preencheu as horas deste mês. Use a folha de horas para registar o tempo e
-              manter o acompanhamento em dia.
+              Ainda não preencheste as horas deste mês. Usa a folha de horas para registar o tempo e manter o acompanhamento em dia.
             </p>
           </div>
           <FolhaHorasAction>Ir para a folha de horas</FolhaHorasAction>
@@ -234,7 +233,7 @@ export function DashboardPage() {
             />
             <QuickAccessCard
               title="Aubay e-learning"
-              description="Formação contínua, trilhos e conteúdos disponíveis na plataforma."
+              description="Formação contínua disponível na plataforma."
               href={aubayELearningUrl}
               iconClass="fa-solid fa-graduation-cap"
             />

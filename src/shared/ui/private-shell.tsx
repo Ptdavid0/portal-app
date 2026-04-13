@@ -79,8 +79,7 @@ export function PrivateShell({
         iconClass: "fa-solid fa-user-circle",
         defaultOpen: true,
         items: [
-          { label: "Dados pessoais" },
-          { label: "Dados profissionais", href: "/profile" },
+          { label: "Dados do colaborador", href: "/profile" },
         ],
       },
     ],
