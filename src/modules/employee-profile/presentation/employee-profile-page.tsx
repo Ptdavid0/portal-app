@@ -25,8 +25,8 @@ export function EmployeeProfilePage() {
     return (
       <div>
         <PrivateHeader
-          title="Dados Profissionais"
-          subtitle="Gerencie suas informações profissionais e fiscais"
+          title="Dados do colaborador"
+          subtitle="Informações pessoais"
           identityLoading
         />
         <div className="p-8">
@@ -42,7 +42,7 @@ export function EmployeeProfilePage() {
     <div>
       <PrivateHeader
         title="Dados do colaborador"
-        subtitle="Informações profissionais, pessoais e fiscais"
+        subtitle="Informações pessoais"
         identity={{ fullName: data.fullName, id: data.id }}
       />
 
