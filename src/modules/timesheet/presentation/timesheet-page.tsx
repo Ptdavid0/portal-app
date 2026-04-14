@@ -17,7 +17,7 @@ type TimesheetRow = {
   status: TimesheetStatus;
   clients: string[];
   projects: string[];
-  updatedAt: string; // dd/mm/yyyy hh:mm:ss (placeholder)
+  updatedAt: string;
   updatedBy: string;
 };
 
@@ -166,7 +166,7 @@ function FiltersBar({
         <button
           type="button"
           onClick={onClear}
-          className="inline-flex items-center justify-center rounded-(--radius) bg-(--aubay-black) px-4 py-2 text-sm font-extrabold text-white hover:opacity-95"
+          className="inline-flex items-center justify-center rounded-(--radius) bg-(--aubay-black) px-4 py-2 text-sm font-bold text-white hover:opacity-95"
         >
           Limpar
         </button>
@@ -270,7 +270,7 @@ function MyFiltersBar({
         <button
           type="button"
           onClick={onClear}
-          className="inline-flex items-center justify-center rounded-(--radius) bg-(--aubay-black) px-4 py-2 text-sm font-extrabold text-white hover:opacity-95"
+          className="inline-flex items-center justify-center rounded-(--radius) bg-(--aubay-black) px-4 py-2 text-sm font-bold text-white hover:opacity-95"
         >
           Limpar
         </button>
@@ -328,15 +328,15 @@ function TimesheetTable({
           <table className="min-w-[1100px] w-full border-collapse text-left">
             <thead>
               <tr className="bg-(--aubay-black) text-white">
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Colaborador</th>
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Ano</th>
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Mês</th>
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Estado</th>
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Clientes</th>
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Projetos</th>
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Última atualização</th>
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Atualizado por</th>
-                <th className="px-5 py-3 text-right text-xs font-extrabold uppercase tracking-[.14em]">Ações</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Colaborador</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Ano</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Mês</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Estado</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Clientes</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Projetos</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Última atualização</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Atualizado por</th>
+                <th className="px-5 py-3 text-right text-xs font-bold uppercase tracking-[.14em]">Ações</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-(--aubay-warmgrey)">
@@ -377,7 +377,7 @@ function TimesheetTable({
             <div key={r.id} className="p-4">
               <div className="flex items-start justify-between gap-3">
                 <div className="min-w-0">
-                  <p className="truncate text-sm font-extrabold text-(--aubay-black)">{r.collaboratorName}</p>
+                  <p className="truncate text-sm font-bold text-(--aubay-black)">{r.collaboratorName}</p>
                   <div className="mt-1 flex flex-wrap items-center gap-2">
                     <StatusPill status={r.status} />
                     <span className="text-xs font-bold text-(--aubay-grey)">
@@ -438,7 +438,7 @@ function TimesheetTable({
             </button>
             <button
               type="button"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-(--aubay-black) text-sm font-extrabold text-white shadow-sm"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-(--aubay-black) text-sm font-bold text-white shadow-sm"
               aria-label="Página 1"
               title="Página 1"
             >
@@ -446,7 +446,7 @@ function TimesheetTable({
             </button>
             <button
               type="button"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-(--aubay-warmgrey) bg-white text-sm font-extrabold text-(--aubay-black) hover:border-(--aubay-orange)"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-(--aubay-warmgrey) bg-white text-sm font-bold text-(--aubay-black) hover:border-(--aubay-orange)"
               aria-label="Página 2"
               title="Página 2"
             >
@@ -489,12 +489,12 @@ function MyTimesheetTable({
           <table className="min-w-[900px] w-full border-collapse text-left">
             <thead>
               <tr className="bg-(--aubay-black) text-white">
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Ano</th>
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Mês</th>
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Classificação</th>
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Clientes envolvidos</th>
-                <th className="px-5 py-3 text-xs font-extrabold uppercase tracking-[.14em]">Projetos envolvidos</th>
-                <th className="px-5 py-3 text-right text-xs font-extrabold uppercase tracking-[.14em]">Ações</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Ano</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Mês</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Classificação</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Clientes envolvidos</th>
+                <th className="px-5 py-3 text-xs font-bold uppercase tracking-[.14em]">Projetos envolvidos</th>
+                <th className="px-5 py-3 text-right text-xs font-bold uppercase tracking-[.14em]">Ações</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-(--aubay-warmgrey)">
@@ -587,7 +587,7 @@ function MyTimesheetTable({
             </button>
             <button
               type="button"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-(--aubay-black) text-sm font-extrabold text-white shadow-sm"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-(--aubay-black) text-sm font-bold text-white shadow-sm"
               aria-label="Página 1"
               title="Página 1"
             >
@@ -595,7 +595,7 @@ function MyTimesheetTable({
             </button>
             <button
               type="button"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-(--aubay-warmgrey) bg-white text-sm font-extrabold text-(--aubay-black) hover:border-(--aubay-orange)"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-(--aubay-warmgrey) bg-white text-sm font-bold text-(--aubay-black) hover:border-(--aubay-orange)"
               aria-label="Página 2"
               title="Página 2"
             >
@@ -633,7 +633,7 @@ function SectionHeader({
 }) {
   return (
     <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-      <h3 className="flex items-center gap-3 text-lg font-extrabold tracking-[-0.01em] text-(--aubay-black)">
+      <h3 className="flex items-center gap-3 text-lg font-bold tracking-[-0.01em] text-(--aubay-black)">
         <span className="h-6 w-1.5 rounded-full bg-(--aubay-orange)" aria-hidden />
         {title}
       </h3>
@@ -646,7 +646,7 @@ export function TimesheetPage() {
   const { data, isPending } = useQuery(employeeProfileQuery());
 
   const isManager = (data?.aubay?.category ?? "") === "Gestor";
-  const headerSubtitle = isPending ? "A carregar dados…" : (data?.currentRole?.trim() || "—");
+  const headerSubtitle = isPending ? "A carregar dados…" : "Registo de horas"
 
   const [myYear, setMyYear] = useState("");
   const [myMonth, setMyMonth] = useState("");
@@ -753,7 +753,7 @@ export function TimesheetPage() {
         <div className="rounded-(--radius) border border-(--aubay-warmgrey) bg-(--aubay-white) p-4 sm:p-6">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
             <div className="min-w-0">
-              <h2 className="text-base font-extrabold tracking-[-0.01em] text-(--aubay-black)">
+              <h2 className="text-base font-bold tracking-[-0.01em] text-(--aubay-black)">
                 Resumo
               </h2>
               <p className="mt-1 text-sm font-semibold text-(--aubay-grey)">
@@ -764,7 +764,7 @@ export function TimesheetPage() {
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-end sm:gap-4">
               <div className="grid grid-cols-2 gap-3 sm:flex sm:items-center sm:gap-4">
                 <div className="rounded-(--radius) border border-(--aubay-warmgrey) bg-white px-4 py-3">
-                  <p className="text-[11px] font-extrabold uppercase tracking-[.14em] text-(--aubay-grey)">
+                  <p className="text-[11px] font-bold uppercase tracking-[.14em] text-(--aubay-grey)">
                     Timesheets preenchidas
                   </p>
                   <div className="mt-2 flex items-center gap-2">
@@ -775,7 +775,7 @@ export function TimesheetPage() {
                   </div>
                 </div>
                 <div className="rounded-(--radius) border border-(--aubay-warmgrey) bg-white px-4 py-3">
-                  <p className="text-[11px] font-extrabold uppercase tracking-[.14em] text-(--aubay-grey)">
+                  <p className="text-[11px] font-bold uppercase tracking-[.14em] text-(--aubay-grey)">
                     Atividades realizadas
                   </p>
                   <div className="mt-2 flex items-center gap-2">
@@ -789,7 +789,7 @@ export function TimesheetPage() {
 
               <Link
                 href="/timesheet/nova"
-                className="inline-flex items-center justify-center gap-2 rounded-(--radius) bg-(--aubay-orange) px-5 py-2.5 text-sm font-extrabold text-white shadow-sm hover:opacity-95"
+                className="inline-flex items-center justify-center gap-2 rounded-(--radius) bg-(--aubay-orange) px-5 py-2.5 text-sm font-bold text-white shadow-sm hover:opacity-95"
               >
                 <i className="fa-solid fa-plus" aria-hidden />
                 Nova timesheet
@@ -800,7 +800,7 @@ export function TimesheetPage() {
 
         <div className="mt-8 flex flex-col gap-10">
           <section className="flex flex-col gap-4">
-            <SectionHeader title="Minha timesheet" />
+            <SectionHeader title="Histórico de timesheets" />
             <MyFiltersBar
               year={myYear}
               setYear={setMyYear}
@@ -826,7 +826,7 @@ export function TimesheetPage() {
                   right={
                     <Link
                       href="/timesheet/nova?scope=colaborador"
-                      className="inline-flex items-center justify-center gap-2 rounded-(--radius) bg-(--aubay-black) px-4 py-2 text-sm font-extrabold text-white hover:opacity-95"
+                      className="inline-flex items-center justify-center gap-2 rounded-(--radius) bg-(--aubay-black) px-4 py-2 text-sm font-bold text-white hover:opacity-95"
                     >
                       <i className="fa-solid fa-plus" aria-hidden />
                       Nova timesheet colaborador
