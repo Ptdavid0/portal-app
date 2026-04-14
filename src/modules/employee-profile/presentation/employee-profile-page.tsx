@@ -207,158 +207,6 @@ export function EmployeeProfilePage() {
           </div>
         </section>
 
-        {/* <section className="mb-6 rounded-(--radius) border border-(--aubay-warmgrey) bg-(--aubay-white)">
-          <div className="flex items-center justify-between border-b border-(--aubay-warmgrey) px-6 py-4">
-            <div className="flex items-center space-x-3">
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-(--profile-section-icon-bg)">
-                <i className="fa-solid fa-briefcase text-(--profile-section-icon-fg)" aria-hidden />
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold tracking-[-0.01em] text-(--aubay-black)">
-                  Dados Profissionais
-                </h3>
-                <p className="text-xs text-(--aubay-grey)">Informações principais do colaborador</p>
-              </div>
-            </div>
-            <button
-              type="button"
-              className="rounded-(--radius) bg-(--aubay-orange) px-4 py-2 text-sm font-bold text-white transition hover:opacity-95"
-            >
-              <i className="fa-solid fa-pen mr-2" aria-hidden />
-              Editar
-            </button>
-          </div>
-
-          <div className="p-6">
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-              <div>
-                <label className="mb-2 block text-xs font-semibold text-gray-700">
-                  Email Corporativo
-                </label>
-                <input
-                  type="email"
-                  value={data.corporateEmail}
-                  readOnly
-                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                />
-              </div>
-              <div>
-                <label className="mb-2 block text-xs font-semibold text-gray-700">
-                  Gestor de Negócio
-                </label>
-                <input
-                  type="text"
-                  value={data.businessManager}
-                  readOnly
-                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                />
-              </div>
-              <div>
-                <label className="mb-2 block text-xs font-semibold text-gray-700">
-                  Unidade de Negócio
-                </label>
-                <input
-                  type="text"
-                  value={data.businessUnit}
-                  readOnly
-                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                />
-              </div>
-              <div>
-                <label className="mb-2 block text-xs font-semibold text-gray-700">
-                  Local de Trabalho
-                </label>
-                <input
-                  type="text"
-                  value={data.workplace}
-                  readOnly
-                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                />
-              </div>
-              <div>
-                <label className="mb-2 block text-xs font-semibold text-gray-700">
-                  Função Atual
-                </label>
-                <input
-                  type="text"
-                  value={data.currentRole}
-                  readOnly
-                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                />
-              </div>
-              <div>
-                <label className="mb-2 block text-xs font-semibold text-gray-700">
-                  Tecnologia Atual
-                </label>
-                <input
-                  type="text"
-                  value={data.currentTechStack}
-                  readOnly
-                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                />
-              </div>
-              <div>
-                <label className="mb-2 block text-xs font-semibold text-gray-700">Metodologia</label>
-                <input
-                  type="text"
-                  value={data.methodology}
-                  readOnly
-                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                />
-              </div>
-              <div className="md:col-span-3">
-                <label className="mb-2 block text-xs font-semibold text-gray-700">
-                  Tecnologias Preferidas
-                </label>
-                <div className="flex flex-wrap gap-2">
-                  {data.preferredTechnologies.map((tech) => (
-                    <span
-                      key={tech}
-                      className="rounded-full bg-[#FEF0EB] px-3 py-1.5 text-sm font-semibold text-(--aubay-orange)"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="mb-6 rounded-(--radius) border border-(--aubay-warmgrey) bg-(--aubay-white)">
-          <div className="flex items-center justify-between border-b border-(--aubay-warmgrey) px-6 py-4">
-            <div className="flex items-center space-x-3">
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-(--profile-section-icon-bg)">
-                <i className="fa-solid fa-building text-(--profile-section-icon-fg)" aria-hidden />
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold tracking-[-0.01em] text-(--aubay-black)">
-                  Dados Aubay
-                </h3>
-                <p className="text-xs text-(--aubay-grey)">Informações organizacionais</p>
-              </div>
-            </div>
-            <button
-              type="button"
-              className="rounded-(--radius) bg-(--aubay-orange) px-4 py-2 text-sm font-bold text-white transition hover:opacity-95"
-            >
-              <i className="fa-solid fa-pen mr-2" aria-hidden />
-              Editar
-            </button>
-          </div>
-          <div className="p-6">
-            <AubayDataForm
-              initialValues={aubayInitialValues}
-              onSave={(values) => {
-                // Placeholder: later this becomes a mutation (TanStack Query).
-                // For now, we just confirm that RHF + Zod validation is wired.
-                console.log("Aubay data submitted", values);
-                setLastSavedAt(new Date());
-              }}
-            />
-          </div>
-        </section>
-
         <section className="mb-6 rounded-(--radius) border border-(--aubay-warmgrey) bg-(--aubay-white)">
           <div className="flex items-center justify-between border-b border-(--aubay-warmgrey) px-6 py-4">
             <div className="flex items-center space-x-3">
@@ -515,6 +363,158 @@ export function EmployeeProfilePage() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* <section className="mb-6 rounded-(--radius) border border-(--aubay-warmgrey) bg-(--aubay-white)">
+          <div className="flex items-center justify-between border-b border-(--aubay-warmgrey) px-6 py-4">
+            <div className="flex items-center space-x-3">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-(--profile-section-icon-bg)">
+                <i className="fa-solid fa-briefcase text-(--profile-section-icon-fg)" aria-hidden />
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold tracking-[-0.01em] text-(--aubay-black)">
+                  Dados Profissionais
+                </h3>
+                <p className="text-xs text-(--aubay-grey)">Informações principais do colaborador</p>
+              </div>
+            </div>
+            <button
+              type="button"
+              className="rounded-(--radius) bg-(--aubay-orange) px-4 py-2 text-sm font-bold text-white transition hover:opacity-95"
+            >
+              <i className="fa-solid fa-pen mr-2" aria-hidden />
+              Editar
+            </button>
+          </div>
+
+          <div className="p-6">
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+              <div>
+                <label className="mb-2 block text-xs font-semibold text-gray-700">
+                  Email Corporativo
+                </label>
+                <input
+                  type="email"
+                  value={data.corporateEmail}
+                  readOnly
+                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
+                />
+              </div>
+              <div>
+                <label className="mb-2 block text-xs font-semibold text-gray-700">
+                  Gestor de Negócio
+                </label>
+                <input
+                  type="text"
+                  value={data.businessManager}
+                  readOnly
+                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
+                />
+              </div>
+              <div>
+                <label className="mb-2 block text-xs font-semibold text-gray-700">
+                  Unidade de Negócio
+                </label>
+                <input
+                  type="text"
+                  value={data.businessUnit}
+                  readOnly
+                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
+                />
+              </div>
+              <div>
+                <label className="mb-2 block text-xs font-semibold text-gray-700">
+                  Local de Trabalho
+                </label>
+                <input
+                  type="text"
+                  value={data.workplace}
+                  readOnly
+                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
+                />
+              </div>
+              <div>
+                <label className="mb-2 block text-xs font-semibold text-gray-700">
+                  Função Atual
+                </label>
+                <input
+                  type="text"
+                  value={data.currentRole}
+                  readOnly
+                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
+                />
+              </div>
+              <div>
+                <label className="mb-2 block text-xs font-semibold text-gray-700">
+                  Tecnologia Atual
+                </label>
+                <input
+                  type="text"
+                  value={data.currentTechStack}
+                  readOnly
+                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
+                />
+              </div>
+              <div>
+                <label className="mb-2 block text-xs font-semibold text-gray-700">Metodologia</label>
+                <input
+                  type="text"
+                  value={data.methodology}
+                  readOnly
+                  className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
+                />
+              </div>
+              <div className="md:col-span-3">
+                <label className="mb-2 block text-xs font-semibold text-gray-700">
+                  Tecnologias Preferidas
+                </label>
+                <div className="flex flex-wrap gap-2">
+                  {data.preferredTechnologies.map((tech) => (
+                    <span
+                      key={tech}
+                      className="rounded-full bg-[#FEF0EB] px-3 py-1.5 text-sm font-semibold text-(--aubay-orange)"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-6 rounded-(--radius) border border-(--aubay-warmgrey) bg-(--aubay-white)">
+          <div className="flex items-center justify-between border-b border-(--aubay-warmgrey) px-6 py-4">
+            <div className="flex items-center space-x-3">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-(--profile-section-icon-bg)">
+                <i className="fa-solid fa-building text-(--profile-section-icon-fg)" aria-hidden />
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold tracking-[-0.01em] text-(--aubay-black)">
+                  Dados Aubay
+                </h3>
+                <p className="text-xs text-(--aubay-grey)">Informações organizacionais</p>
+              </div>
+            </div>
+            <button
+              type="button"
+              className="rounded-(--radius) bg-(--aubay-orange) px-4 py-2 text-sm font-bold text-white transition hover:opacity-95"
+            >
+              <i className="fa-solid fa-pen mr-2" aria-hidden />
+              Editar
+            </button>
+          </div>
+          <div className="p-6">
+            <AubayDataForm
+              initialValues={aubayInitialValues}
+              onSave={(values) => {
+                // Placeholder: later this becomes a mutation (TanStack Query).
+                // For now, we just confirm that RHF + Zod validation is wired.
+                console.log("Aubay data submitted", values);
+                setLastSavedAt(new Date());
+              }}
+            />
           </div>
         </section>
 
