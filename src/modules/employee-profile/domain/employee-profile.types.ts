@@ -2,7 +2,7 @@ export type EmployeeProfile = {
   id: string;
   fullName: string;
   personal: {
-    preferredName: string;
+    name: string;
     uniqueId: string;
     admissionDate: string;
     birthDate: string;

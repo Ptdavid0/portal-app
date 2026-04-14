@@ -4,7 +4,7 @@ const employeeProfile: EmployeeProfile = {
   id: "12345",
   fullName: "João Silva",
   personal: {
-    preferredName: "-",
+    name: "João Silva da Costa",
     uniqueId: "23511",
     admissionDate: "14-12-2020",
     birthDate: "24-01-1990",

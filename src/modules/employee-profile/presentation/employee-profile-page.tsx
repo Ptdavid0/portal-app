@@ -83,10 +83,10 @@ export function EmployeeProfilePage() {
               <div>
                 <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
                   <div>
-                    <label className="mb-2 block text-xs font-semibold text-gray-700">Nome preferencial</label>
+                    <label className="mb-2 block text-xs font-semibold text-gray-700">Nome</label>
                     <input
                       type="text"
-                      value={data.personal.preferredName}
+                      value={data.personal.name}
                       readOnly
                       className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
                     />
@@ -124,15 +124,6 @@ export function EmployeeProfilePage() {
                     />
                   </div>
                   <div>
-                    <label className="mb-2 block text-xs font-semibold text-gray-700">País de nascimento</label>
-                    <input
-                      type="text"
-                      value={data.personal.birthCountry}
-                      readOnly
-                      className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                    />
-                  </div>
-                  <div>
                     <label className="mb-2 block text-xs font-semibold text-gray-700">Nacionalidade</label>
                     <input
                       type="text"
@@ -141,78 +132,8 @@ export function EmployeeProfilePage() {
                       className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
                     />
                   </div>
-
-                  <div>
-                    <label className="mb-2 block text-xs font-semibold text-gray-700">Distrito de nascimento</label>
-                    <input
-                      type="text"
-                      value={data.personal.birthDistrict}
-                      readOnly
-                      className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                    />
-                  </div>
-                  <div>
-                    <label className="mb-2 block text-xs font-semibold text-gray-700">Concelho de nascimento</label>
-                    <input
-                      type="text"
-                      value={data.personal.birthCounty}
-                      readOnly
-                      className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                    />
-                  </div>
-                  <div>
-                    <label className="mb-2 block text-xs font-semibold text-gray-700">Género</label>
-                    <input
-                      type="text"
-                      value={data.personal.gender}
-                      readOnly
-                      className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                    />
-                  </div>
                 </div>
               </div>
-
-              <div>
-                <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-                  <div>
-                    <label className="mb-2 block text-xs font-semibold text-gray-700">Idioma de Comunicação</label>
-                    <input
-                      type="text"
-                      value={data.personal.communicationLanguage}
-                      readOnly
-                      className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                    />
-                  </div>
-                  <div>
-                    <label className="mb-2 block text-xs font-semibold text-gray-700">Tipo de Permissão</label>
-                    <input
-                      type="text"
-                      value={data.personal.permissionType}
-                      readOnly
-                      className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                    />
-                  </div>
-                  <div>
-                    <label className="mb-2 block text-xs font-semibold text-gray-700">Habilitações Literárias</label>
-                    <input
-                      type="text"
-                      value={data.personal.educationLevel}
-                      readOnly
-                      className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                    />
-                  </div>
-                  <div>
-                    <label className="mb-2 block text-xs font-semibold text-gray-700">Tem carta de condução?</label>
-                    <input
-                      type="text"
-                      value={data.personal.hasDriversLicense}
-                      readOnly
-                      className="w-full rounded-(--radius) border border-(--aubay-warmgrey) bg-gray-50 px-4 py-2.5 text-sm text-(--aubay-black) focus:border-transparent focus:ring-2 focus:ring-(--aubay-orange)"
-                    />
-                  </div>
-                </div>
-              </div>
-
               <div>
                 <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
                   <div className="md:col-span-2">
@@ -286,7 +207,7 @@ export function EmployeeProfilePage() {
           </div>
         </section>
 
-        <section className="mb-6 rounded-(--radius) border border-(--aubay-warmgrey) bg-(--aubay-white)">
+        {/* <section className="mb-6 rounded-(--radius) border border-(--aubay-warmgrey) bg-(--aubay-white)">
           <div className="flex items-center justify-between border-b border-(--aubay-warmgrey) px-6 py-4">
             <div className="flex items-center space-x-3">
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-(--profile-section-icon-bg)">
@@ -947,7 +868,7 @@ export function EmployeeProfilePage() {
               />
             </div>
           </div>
-        </section>
+        </section> */}
 
         <div className="flex justify-end space-x-3">
           <button
