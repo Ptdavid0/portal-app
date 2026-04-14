@@ -67,6 +67,7 @@ export function EmployeeProfilePage() {
                 <h3 className="text-lg font-semibold tracking-[-0.01em] text-(--aubay-black)">
                   Dados pessoais
                 </h3>
+                <p className="text-xs text-(--aubay-grey)">Informações detalhadas</p>
               </div>
             </div>
             <button
@@ -358,7 +359,6 @@ export function EmployeeProfilePage() {
                 <div className="mt-3 flex justify-end">
                   <button type="button" className="rounded-lg p-2 text-red-600 hover:bg-red-50">
                     <i className="fa-solid fa-trash mr-1" aria-hidden />
-                    Remover
                   </button>
                 </div>
               </div>
