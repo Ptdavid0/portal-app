@@ -19,7 +19,7 @@ const employeeProfile: EmployeeProfile = {
     hasDriversLicense: "-",
     correspondenceAddress: "Avenida da Liberdade, 33, R/c.\n1070-00 Lisboa",
     country: "Portugal",
-    postalCode: "1070-00",
+    postalCode: "1070-000",
     locality: "Lisboa",
     district: "Lisboa",
     county: "Lisboa",
