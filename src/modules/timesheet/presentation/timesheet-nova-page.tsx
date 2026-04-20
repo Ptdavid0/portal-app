@@ -35,12 +35,12 @@ export function TimesheetNovaPage() {
               <div className="grid flex-1 basis-3/5 grid-cols-12 gap-6 min-h-0 shrink-0">
                 <section className="col-span-5 flex h-full flex-col overflow-hidden">
                   <div className="mb-4 flex items-center justify-between shrink-0">
-                    <h2 className="text-xl font-bold text-[#333333]">Projects</h2>
+                    <h2 className="text-xl font-bold text-[#333333]">Projetos</h2>
                     <button
                       type="button"
                       className="flex items-center gap-2 rounded-lg bg-[#eb550a] px-4 py-2 text-sm font-medium text-white shadow-sm transition-all hover:bg-[#d14908]"
                     >
-                      <i className="fa-solid fa-plus" aria-hidden /> Add Project
+                      <i className="fa-solid fa-plus" aria-hidden /> Adicionar projeto
                     </button>
                   </div>
 
@@ -58,13 +58,13 @@ export function TimesheetNovaPage() {
 
                       <div className="p-4">
                         <div className="mb-4 flex items-center justify-between">
-                          <span className="text-xs font-semibold uppercase tracking-wider text-gray-500">My Activities</span>
+                          <span className="text-xs font-semibold uppercase tracking-wider text-gray-500">As minhas atividades</span>
                           <div className="flex gap-2">
                             <button
                               type="button"
                               className="rounded border border-transparent px-2 py-1 text-xs font-medium text-[#eb550a] transition-colors hover:border-orange-200 hover:bg-orange-50 hover:text-[#d14908]"
                             >
-                              <i className="fa-solid fa-plus mr-1" aria-hidden /> New Activity
+                              <i className="fa-solid fa-plus mr-1" aria-hidden /> Nova atividade
                             </button>
                           </div>
                         </div>
@@ -77,13 +77,13 @@ export function TimesheetNovaPage() {
                                 <i className="fa-solid fa-calendar-days text-sm" aria-hidden />
                               </div>
                               <select className="block flex-1 rounded-lg border border-gray-200 bg-gray-50 p-2 text-sm text-gray-700 outline-none focus:border-[#eb550a] focus:ring-[#eb550a]">
-                                <option>Events</option>
-                                <option>Lunch</option>
-                                <option>On-call</option>
-                                <option>Vacation</option>
-                                <option>Work</option>
-                                <option>Overtime</option>
-                                <option>Night hours</option>
+                                <option>Eventos</option>
+                                <option>Almoço</option>
+                                <option>De prevenção</option>
+                                <option>Férias</option>
+                                <option>Trabalho</option>
+                                <option>Horas extra</option>
+                                <option>Horas noturnas</option>
                               </select>
                               <button type="button" className="p-1 text-gray-300 transition-colors hover:text-red-500" aria-label="Remover">
                                 <i className="fa-solid fa-xmark" aria-hidden />
@@ -108,7 +108,7 @@ export function TimesheetNovaPage() {
                                 type="button"
                                 className="group/btn flex items-center gap-2 rounded-md border border-[#eb550a] bg-white px-3 py-1.5 text-xs font-medium text-[#eb550a] shadow-sm transition-all hover:bg-[#eb550a] hover:text-white"
                               >
-                                Add to Calendar
+                                Adicionar ao calendário
                                 <i className="fa-solid fa-arrow-right transition-transform group-hover/btn:translate-x-1" aria-hidden />
                               </button>
                             </div>
@@ -123,13 +123,13 @@ export function TimesheetNovaPage() {
                                 <i className="fa-solid fa-utensils text-sm" aria-hidden />
                               </div>
                               <select className="block flex-1 rounded-lg border border-gray-200 bg-gray-50 p-2 text-sm text-gray-700 outline-none focus:border-[#eb550a] focus:ring-[#eb550a]">
-                                <option>Lunch</option>
-                                <option>Events</option>
-                                <option>On-call</option>
-                                <option>Vacation</option>
-                                <option>Work</option>
-                                <option>Overtime</option>
-                                <option>Night hours</option>
+                                <option>Almoço</option>
+                                <option>Eventos</option>
+                                <option>De prevenção</option>
+                                <option>Férias</option>
+                                <option>Trabalho</option>
+                                <option>Horas extra</option>
+                                <option>Horas noturnas</option>
                               </select>
                               <button type="button" className="p-1 text-gray-300 transition-colors hover:text-red-500" aria-label="Remover">
                                 <i className="fa-solid fa-xmark" aria-hidden />
@@ -154,7 +154,7 @@ export function TimesheetNovaPage() {
                                 type="button"
                                 className="group/btn flex items-center gap-2 rounded-md border border-[#eb550a] bg-white px-3 py-1.5 text-xs font-medium text-[#eb550a] shadow-sm transition-all hover:bg-[#eb550a] hover:text-white"
                               >
-                                Add to Calendar
+                                Adicionar ao calendário
                                 <i className="fa-solid fa-arrow-right transition-transform group-hover/btn:translate-x-1" aria-hidden />
                               </button>
                             </div>
@@ -169,13 +169,13 @@ export function TimesheetNovaPage() {
                                 <i className="fa-solid fa-calendar-days text-sm" aria-hidden />
                               </div>
                               <select className="block flex-1 rounded-lg border border-gray-200 bg-gray-50 p-2 text-sm text-gray-700 outline-none focus:border-[#eb550a] focus:ring-[#eb550a]">
-                                <option>Vacation</option>
-                                <option>Events</option>
-                                <option>Lunch</option>
-                                <option>On-call</option>
-                                <option>Work</option>
-                                <option>Overtime</option>
-                                <option>Night hours</option>
+                                <option>Férias</option>
+                                <option>Eventos</option>
+                                <option>Almoço</option>
+                                <option>De prevenção</option>
+                                <option>Trabalho</option>
+                                <option>Horas extra</option>
+                                <option>Horas noturnas</option>
                               </select>
                               <button type="button" className="p-1 text-gray-300 transition-colors hover:text-red-500" aria-label="Remover">
                                 <i className="fa-solid fa-xmark" aria-hidden />
@@ -200,7 +200,7 @@ export function TimesheetNovaPage() {
                                 type="button"
                                 className="group/btn flex items-center gap-2 rounded-md border border-[#eb550a] bg-white px-3 py-1.5 text-xs font-medium text-[#eb550a] shadow-sm transition-all hover:bg-[#eb550a] hover:text-white"
                               >
-                                Add to Calendar
+                                Adicionar ao calendário
                                 <i className="fa-solid fa-arrow-right transition-transform group-hover/btn:translate-x-1" aria-hidden />
                               </button>
                             </div>
@@ -215,13 +215,13 @@ export function TimesheetNovaPage() {
                                 <i className="fa-solid fa-calendar-days text-sm" aria-hidden />
                               </div>
                               <select className="block flex-1 rounded-lg border border-gray-200 bg-gray-50 p-2 text-sm text-gray-700 outline-none focus:border-[#eb550a] focus:ring-[#eb550a]">
-                                <option>Work</option>
-                                <option>Events</option>
-                                <option>Lunch</option>
-                                <option>On-call</option>
-                                <option>Vacation</option>
-                                <option>Overtime</option>
-                                <option>Night hours</option>
+                                <option>Trabalho</option>
+                                <option>Eventos</option>
+                                <option>Almoço</option>
+                                <option>De prevenção</option>
+                                <option>Férias</option>
+                                <option>Horas extra</option>
+                                <option>Horas noturnas</option>
                               </select>
                               <button type="button" className="p-1 text-gray-300 transition-colors hover:text-red-500" aria-label="Remover">
                                 <i className="fa-solid fa-xmark" aria-hidden />
@@ -246,7 +246,7 @@ export function TimesheetNovaPage() {
                                 type="button"
                                 className="group/btn flex items-center gap-2 rounded-md border border-[#eb550a] bg-white px-3 py-1.5 text-xs font-medium text-[#eb550a] shadow-sm transition-all hover:bg-[#eb550a] hover:text-white"
                               >
-                                Add to Calendar
+                                Adicionar ao calendário
                                 <i className="fa-solid fa-arrow-right transition-transform group-hover/btn:translate-x-1" aria-hidden />
                               </button>
                             </div>
@@ -261,13 +261,13 @@ export function TimesheetNovaPage() {
                                 <i className="fa-solid fa-calendar-days text-sm" aria-hidden />
                               </div>
                               <select className="block flex-1 rounded-lg border border-gray-200 bg-gray-50 p-2 text-sm text-gray-700 outline-none focus:border-[#eb550a] focus:ring-[#eb550a]">
-                                <option>Overtime</option>
-                                <option>Events</option>
-                                <option>Lunch</option>
-                                <option>On-call</option>
-                                <option>Vacation</option>
-                                <option>Work</option>
-                                <option>Night hours</option>
+                                <option>Horas extra</option>
+                                <option>Eventos</option>
+                                <option>Almoço</option>
+                                <option>De prevenção</option>
+                                <option>Férias</option>
+                                <option>Trabalho</option>
+                                <option>Horas noturnas</option>
                               </select>
                               <button type="button" className="p-1 text-gray-300 transition-colors hover:text-red-500" aria-label="Remover">
                                 <i className="fa-solid fa-xmark" aria-hidden />
@@ -292,7 +292,7 @@ export function TimesheetNovaPage() {
                                 type="button"
                                 className="group/btn flex items-center gap-2 rounded-md border border-[#eb550a] bg-white px-3 py-1.5 text-xs font-medium text-[#eb550a] shadow-sm transition-all hover:bg-[#eb550a] hover:text-white"
                               >
-                                Add to Calendar
+                                Adicionar ao calendário
                                 <i className="fa-solid fa-arrow-right transition-transform group-hover/btn:translate-x-1" aria-hidden />
                               </button>
                             </div>
@@ -303,7 +303,7 @@ export function TimesheetNovaPage() {
                           type="button"
                           className="mt-2 flex w-full items-center justify-center gap-2 rounded-lg bg-gray-800 py-2.5 text-sm font-medium text-white shadow-sm transition-all hover:bg-[#333333]"
                         >
-                          Add All Activities to Calendar
+                          Adicionar todas as atividades ao calendário
                           <i className="fa-solid fa-layer-group" aria-hidden />
                         </button>
                       </div>
@@ -315,7 +315,7 @@ export function TimesheetNovaPage() {
                           <div className="flex h-8 w-8 items-center justify-center rounded border border-gray-200 bg-white text-gray-400">
                             <i className="fa-regular fa-folder" aria-hidden />
                           </div>
-                          <span className="font-semibold text-gray-600">Internal - Training</span>
+                          <span className="font-semibold text-gray-600">Interno - Formação</span>
                         </div>
                         <i className="fa-solid fa-chevron-right text-gray-400" aria-hidden />
                       </div>
@@ -326,7 +326,7 @@ export function TimesheetNovaPage() {
                 <section className="col-span-7 flex h-full flex-col overflow-hidden rounded-xl border border-[#D3D3D3] bg-white shadow-sm">
                   <div className="flex items-center justify-between border-b border-gray-100 bg-white p-5">
                     <div className="flex items-center gap-4">
-                      <h2 className="text-xl font-bold text-[#333333]">February 2024</h2>
+                      <h2 className="text-xl font-bold text-[#333333]">Fevereiro 2024</h2>
                       <div className="flex gap-1" />
                     </div>
                     <div className="flex items-center gap-3">
@@ -334,32 +334,32 @@ export function TimesheetNovaPage() {
                         type="button"
                         className="flex items-center gap-2 rounded-lg bg-gray-100 px-4 py-2.5 text-sm font-medium text-gray-600 shadow-sm transition-all hover:bg-gray-200"
                       >
-                        <i className="fa-solid fa-copy" aria-hidden /> Copy
+                        <i className="fa-solid fa-copy" aria-hidden /> Copiar
                       </button>
                       <button
                         type="button"
                         className="flex items-center gap-2 rounded-lg bg-gray-100 px-4 py-2.5 text-sm font-medium text-gray-600 shadow-sm transition-all hover:bg-gray-200"
                       >
-                        <i className="fa-solid fa-trash" aria-hidden /> Remove
+                        <i className="fa-solid fa-trash" aria-hidden /> Remover
                       </button>
                       <button
                         type="button"
                         className="flex items-center gap-2 rounded-lg bg-[#eb550a] px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-[#d14908]"
                       >
-                        <i className="fa-solid fa-paper-plane" aria-hidden /> Submit
+                        <i className="fa-solid fa-paper-plane" aria-hidden /> Submeter
                       </button>
                     </div>
                   </div>
 
                   <div className="flex-1 overflow-auto p-5" style={{ height: 800 }}>
                     <div className="calendar-grid h-full">
-                      <div className="calendar-header-cell">MON</div>
-                      <div className="calendar-header-cell">TUE</div>
-                      <div className="calendar-header-cell">WED</div>
-                      <div className="calendar-header-cell">THU</div>
-                      <div className="calendar-header-cell">FRI</div>
-                      <div className="calendar-header-cell">SAT</div>
-                      <div className="calendar-header-cell">SUN</div>
+                      <div className="calendar-header-cell">SEG</div>
+                      <div className="calendar-header-cell">TER</div>
+                      <div className="calendar-header-cell">QUA</div>
+                      <div className="calendar-header-cell">QUI</div>
+                      <div className="calendar-header-cell">SEX</div>
+                      <div className="calendar-header-cell">SÁB</div>
+                      <div className="calendar-header-cell">DOM</div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-medium text-gray-400">29</div>
@@ -373,17 +373,17 @@ export function TimesheetNovaPage() {
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">1</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">2</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">3h - Overtime</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">3h - Horas extra</div>
                       </div>
 
                       <div className="calendar-day bg-gray-50 p-2">
@@ -395,37 +395,37 @@ export function TimesheetNovaPage() {
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">5</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">6</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">7</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">8</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">9</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day bg-gray-50 p-2">
@@ -437,38 +437,38 @@ export function TimesheetNovaPage() {
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">12</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">13</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">14</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">2h - Night hours</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">2h - Horas noturnas</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">15</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">16</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day bg-gray-50 p-2">
@@ -480,37 +480,37 @@ export function TimesheetNovaPage() {
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">19</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">20</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">21</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">22</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">23</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day bg-gray-50 p-2">
@@ -522,28 +522,28 @@ export function TimesheetNovaPage() {
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">26</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">27</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">28</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
-                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Lunch</div>
-                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Work</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
+                        <div className="mb-1 rounded border border-yellow-200 bg-yellow-50 px-1 py-0.5 text-xs text-yellow-600">1h - Almoço</div>
+                        <div className="mb-1 rounded border border-blue-200 bg-blue-100 px-1 py-0.5 text-xs text-blue-700">4h - Trabalho</div>
                       </div>
 
                       <div className="calendar-day p-2">
                         <div className="mb-1 text-xs font-semibold text-[#333333]">29</div>
-                        <div className="mb-1 rounded border border-[#D7BEFE] bg-[#E0C4F3] px-1 py-0.5 text-xs text-[#01050E]">8h - Vacation</div>
+                        <div className="mb-1 rounded border border-[#D7BEFE] bg-[#E0C4F3] px-1 py-0.5 text-xs text-[#01050E]">8h - Férias</div>
                       </div>
 
                       <div className="calendar-day p-2">
@@ -563,7 +563,7 @@ export function TimesheetNovaPage() {
               <div className="flex items-center justify-between border-b border-gray-100 bg-gray-50 px-4 py-2.5">
                 <div className="flex items-center gap-2 text-xs text-gray-500">
                   <i className="fa-regular fa-eye text-gray-400" aria-hidden />
-                  <span>All Projects Visible</span>
+                  <span>Todos os projetos visíveis</span>
                 </div>
                 <div className="text-xs font-medium text-gray-600">
                   Total (h): <span className="font-bold text-[#333333]">173</span>
@@ -573,15 +573,15 @@ export function TimesheetNovaPage() {
               <div className="flex min-h-0 flex-1 basis-2/5 flex-col gap-6">
                 <section className="flex flex-col overflow-hidden rounded-xl border border-[#D3D3D3] bg-white shadow-sm">
                   <div className="flex items-center justify-between border-b border-gray-100 bg-white p-4">
-                    <h3 className="text-base font-bold text-[#333333]">Summary</h3>
-                    <span className="text-xs font-medium text-gray-500">February 2024</span>
+                    <h3 className="text-base font-bold text-[#333333]">Resumo</h3>
+                    <span className="text-xs font-medium text-gray-500">Fevereiro 2024</span>
                   </div>
 
                   <div className="w-full table-scroll overflow-x-auto">
                     <table className="w-full border-collapse text-xs">
                       <thead>
                         <tr className="bg-[#2D2D2D] text-white">
-                          <th className="px-4 py-2.5 text-left font-semibold">Project</th>
+                          <th className="px-4 py-2.5 text-left font-semibold">Projeto</th>
                           {Array.from({ length: 29 }, (_, i) => (
                             <th key={i} className="w-8 px-1 py-2.5 text-center font-semibold">
                               {i + 1}
@@ -626,7 +626,7 @@ export function TimesheetNovaPage() {
                         </tr>
 
                         <tr className="border-b border-gray-100 transition-colors hover:bg-gray-50">
-                          <td className="px-4 py-3 font-medium text-gray-700">Internal - Training</td>
+                          <td className="px-4 py-3 font-medium text-gray-700">Interno - Formação</td>
                           {Array.from({ length: 29 }, (_, i) => (
                             <td key={i} className="text-center text-gray-400">
                               -
@@ -636,7 +636,7 @@ export function TimesheetNovaPage() {
                         </tr>
 
                         <tr className="bg-gray-50 font-bold">
-                          <td className="px-4 py-3 text-[#333333]">Total Hours</td>
+                          <td className="px-4 py-3 text-[#333333]">Total de horas</td>
                           <td className="text-center text-[#333333]">8</td>
                           <td className="text-center text-[#333333]">11</td>
                           <td className="text-center text-gray-400">-</td>
@@ -675,25 +675,25 @@ export function TimesheetNovaPage() {
 
                 <section className="flex flex-col overflow-hidden rounded-xl border border-[#D3D3D3] bg-white shadow-sm">
                   <div className="flex items-center justify-between border-b border-gray-100 bg-white p-4">
-                    <h3 className="text-base font-bold text-[#333333]">All Projects</h3>
-                    <span className="text-xs font-medium text-gray-500">Overview</span>
+                    <h3 className="text-base font-bold text-[#333333]">Todos os projetos</h3>
+                    <span className="text-xs font-medium text-gray-500">Visão geral</span>
                   </div>
 
                   <div className="w-full table-scroll overflow-x-auto">
                     <table className="w-full text-xs">
                       <thead>
                         <tr className="bg-[#2D2D2D] text-white">
-                          <th className="px-4 py-2.5 text-left font-semibold">Project</th>
-                          <th className="px-4 py-2.5 text-left font-semibold">Activity</th>
-                          <th className="px-4 py-2.5 text-center font-semibold">Days Worked</th>
-                          <th className="px-4 py-2.5 text-center font-semibold">Total Hours</th>
-                          <th className="px-4 py-2.5 text-center font-semibold">Percentage</th>
+                          <th className="px-4 py-2.5 text-left font-semibold">Projeto</th>
+                          <th className="px-4 py-2.5 text-left font-semibold">Atividade</th>
+                          <th className="px-4 py-2.5 text-center font-semibold">Dias trabalhados</th>
+                          <th className="px-4 py-2.5 text-center font-semibold">Total de horas</th>
+                          <th className="px-4 py-2.5 text-center font-semibold">Percentagem</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr className="border-b border-gray-100 transition-colors hover:bg-gray-50">
                           <td className="px-4 py-3 font-medium text-gray-700">La Redoute - OutSourcing</td>
-                          <td className="px-4 py-3 text-gray-600">Work</td>
+                          <td className="px-4 py-3 text-gray-600">Trabalho</td>
                           <td className="px-4 py-3 text-center text-gray-600">20</td>
                           <td className="px-4 py-3 text-center font-bold text-[#eb550a]">160h</td>
                           <td className="px-4 py-3 text-center">
@@ -704,7 +704,7 @@ export function TimesheetNovaPage() {
                         </tr>
                         <tr className="border-b border-gray-100 transition-colors hover:bg-gray-50">
                           <td className="px-4 py-3 font-medium text-gray-700">La Redoute - OutSourcing</td>
-                          <td className="px-4 py-3 text-gray-600">Overtime</td>
+                          <td className="px-4 py-3 text-gray-600">Horas extra</td>
                           <td className="px-4 py-3 text-center text-gray-600">1</td>
                           <td className="px-4 py-3 text-center font-bold text-[#eb550a]">3h</td>
                           <td className="px-4 py-3 text-center">
@@ -715,7 +715,7 @@ export function TimesheetNovaPage() {
                         </tr>
                         <tr className="border-b border-gray-100 transition-colors hover:bg-gray-50">
                           <td className="px-4 py-3 font-medium text-gray-700">La Redoute - OutSourcing</td>
-                          <td className="px-4 py-3 text-gray-600">Night hours</td>
+                          <td className="px-4 py-3 text-gray-600">Horas noturnas</td>
                           <td className="px-4 py-3 text-center text-gray-600">1</td>
                           <td className="px-4 py-3 text-center font-bold text-[#eb550a]">2h</td>
                           <td className="px-4 py-3 text-center">
@@ -726,7 +726,7 @@ export function TimesheetNovaPage() {
                         </tr>
                         <tr className="border-b border-gray-100 transition-colors hover:bg-gray-50">
                           <td className="px-4 py-3 font-medium text-gray-700">La Redoute - OutSourcing</td>
-                          <td className="px-4 py-3 text-gray-600">Vacation</td>
+                          <td className="px-4 py-3 text-gray-600">Férias</td>
                           <td className="px-4 py-3 text-center text-gray-600">1</td>
                           <td className="px-4 py-3 text-center font-bold text-[#eb550a]">8h</td>
                           <td className="px-4 py-3 text-center">
