@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { TaskBadge } from "@/modules/my-tasks/presentation/task-badge";
 
 function initialsFromFullName(fullName: string) {
   const parts = fullName.trim().split(/\s+/).filter(Boolean);
@@ -42,7 +43,11 @@ export function PrivateHeader({
           </h2>
           {subtitle ? <p className="mt-1 hidden text-sm text-(--aubay-grey) md:block">{subtitle}</p> : null}
         </div>
-        <Link
+        <div className="flex items-center gap-4">
+          <div className="hidden md:block">
+            <TaskBadge />
+          </div>
+          <Link
           href="/profile"
           aria-label="Ir para o perfil"
           className="flex shrink-0 items-center space-x-3 md:border-l md:border-(--aubay-warmgrey) md:pl-4"
@@ -57,6 +62,7 @@ export function PrivateHeader({
             </p>
           </div>
         </Link>
+        </div>
       </div>
     </header>
   );
