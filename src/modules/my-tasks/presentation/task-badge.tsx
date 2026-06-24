@@ -16,7 +16,7 @@ export function TaskBadge() {
       className="relative inline-flex items-center gap-2 rounded-(--radius) px-3 py-2 text-sm font-semibold text-(--aubay-orange) hover:bg-orange-50 transition"
     >
       <i className="fa-solid fa-list-check" aria-hidden />
-      <span>Tarefas</span>
+      <span>Ações</span>
       <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-(--aubay-orange) text-white text-xs font-bold">
         {pendingCount}
       </span>

@@ -24,9 +24,9 @@ export function MyTasksPage() {
   return (
     <div className="min-h-full">
       <PrivateHeader
-        title="As Minhas Tarefas"
+        title="Ações Pendentes"
         subtitle={
-          isPending ? "A carregar tarefas…" : `${data?.totalPending ?? 0} tarefas pendentes`
+          isPending ? "A carregar ações…" : `${data?.totalPending ?? 0} ações pendentes`
         }
       />
 

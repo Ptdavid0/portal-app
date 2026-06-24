@@ -26,7 +26,7 @@ export function PrivateShell({
   const nav: NavItem[] = useMemo(
     () => [
       { kind: "link", label: "Página Principal", href: "/dashboard", iconClass: "fa-solid fa-house" },
-      { kind: "link", label: "As Minhas Tarefas", href: "/my-tasks", iconClass: "fa-solid fa-list-check" },
+      { kind: "link", label: "Ações Pendentes", href: "/my-tasks", iconClass: "fa-solid fa-list-check" },
       { kind: "link", label: "Perfil", href: "/profile", iconClass: "fa-solid fa-user-circle" },
       {
         kind: "group",

@@ -19,9 +19,9 @@ export function TaskList({
     return (
       <div className="rounded-(--radius) border border-green-200 bg-green-50 p-8 text-center">
         <i className="fa-solid fa-circle-check text-3xl text-green-600 mb-3" aria-hidden />
-        <p className="text-lg font-semibold text-green-900">Sem tarefas pendentes!</p>
+        <p className="text-lg font-semibold text-green-900">Sem ações pendentes!</p>
         <p className="mt-1 text-sm text-green-700">
-          Excelente! Estás em dia com todas as tarefas obrigatórias.
+          Excelente! Estás em dia com todas as ações obrigatórias.
         </p>
       </div>
     );
@@ -31,7 +31,7 @@ export function TaskList({
     <div className="space-y-6">
       <div>
         <h2 className="text-lg font-semibold text-(--aubay-black) mb-4">
-          Tarefas Pendentes ({pendingTasks.length})
+          Ações Pendentes ({pendingTasks.length})
         </h2>
         <div className="space-y-4">
           {pendingTasks.map((task) => (
@@ -48,7 +48,7 @@ export function TaskList({
       {completedTasks.length > 0 && (
         <div>
           <h2 className="text-lg font-semibold text-(--aubay-black) mb-4">
-            Tarefas Concluídas ({completedTasks.length})
+            Ações Concluídas ({completedTasks.length})
           </h2>
           <div className="space-y-4 opacity-60">
             {completedTasks.map((task) => (
