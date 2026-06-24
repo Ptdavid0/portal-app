@@ -15,9 +15,9 @@ const mockTasks: Task[] = [
   },
   {
     id: "task-002",
-    title: "Registar horas da primeira semana",
+    title: "Registar horas deste mês",
     description:
-      "Completa o registo de horas para a primeira semana de junho. Não te esqueças de confirmar antes da data limite.",
+      "Completa o registo de horas deste mês. Não te esqueças de confirmar antes da data limite.",
     type: "Obrigatória",
     status: "Pendente",
     actionLabel: "Abrir Timesheet",
