@@ -5,7 +5,7 @@ const mockTasks: Task[] = [
     id: "task-001",
     title: "Preencher formulário de dados pessoais",
     description:
-      "Atualize seus dados pessoais no perfil. Esta informação é essencial para manter o sistema atualizado.",
+      "Atualiza os teus dados pessoais no perfil. Esta informação é essencial para manter o sistema atualizado.",
     type: "Obrigatória",
     status: "Pendente",
     actionLabel: "Ir para Perfil",
@@ -17,7 +17,7 @@ const mockTasks: Task[] = [
     id: "task-002",
     title: "Registar horas da primeira semana",
     description:
-      "Complete o registo de horas para a primeira semana de junho. Não esqueça de confirmar antes da data limite.",
+      "Completa o registo de horas para a primeira semana de junho. Não te esqueças de confirmar antes da data limite.",
     type: "Obrigatória",
     status: "Pendente",
     actionLabel: "Abrir Timesheet",
@@ -38,7 +38,7 @@ const mockTasks: Task[] = [
   {
     id: "task-004",
     title: "Completar avaliação de desempenho",
-    description: "Avaliação anual de desempenho. Recomendado para seu desenvolvimento profissional.",
+    description: "Avaliação anual de desempenho. Recomendado para o teu desenvolvimento profissional.",
     type: "Recomendada",
     status: "Pendente",
     actionLabel: "Abrir Avaliação",

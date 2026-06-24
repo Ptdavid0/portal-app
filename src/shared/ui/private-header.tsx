@@ -24,6 +24,8 @@ export function PrivateHeader({
   const displayId = showLoading ? "—" : (identity?.id ?? "12345");
   const displayInitials = showLoading ? "…" : identity ? initialsFromFullName(identity.fullName) : "JS";
 
+  const menuLabel = "Abrir menu";
+
   return (
     <header className="border-b border-(--aubay-warmgrey) bg-(--aubay-white) px-4 py-4 md:px-8">
       <div className="flex items-center justify-between md:flex-row md:items-center md:justify-between">

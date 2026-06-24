@@ -21,7 +21,7 @@ export function TaskList({
         <i className="fa-solid fa-circle-check text-3xl text-green-600 mb-3" aria-hidden />
         <p className="text-lg font-semibold text-green-900">Sem tarefas pendentes!</p>
         <p className="mt-1 text-sm text-green-700">
-          Excelente! Está em dia com todas as tarefas obrigatórias.
+          Excelente! Estás em dia com todas as tarefas obrigatórias.
         </p>
       </div>
     );
